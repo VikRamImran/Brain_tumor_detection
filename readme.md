@@ -50,6 +50,10 @@ Class label mapping in code: `glioma -> 0`, `meningioma -> 1`, `notumor -> 2`, `
   - pituitary: precision 0.92, recall 0.98, f1 0.95
   - notumor: strong support in test set.
 
+## confustion matrics:
+
+![Project Chart](images/confustion_matrics.png)
+
 ### Detection (from `Brain_det/results.csv`, 5 epochs)
 - Final epoch:
   - precision: **0.8713**
@@ -57,6 +61,10 @@ Class label mapping in code: `glioma -> 0`, `meningioma -> 1`, `notumor -> 2`, `
   - mAP50: **0.8937**
   - mAP50-95: **0.6255**
 - Trend: epoch1 mAP50=0.664, epoch5 mAP50=0.894. 5 epochs gave strong bounding-box detection.
+
+## Learning Accuracy Curve
+
+![Project Chart](images/accuracy_learning_yolo.png)
 
 ---
 
@@ -77,6 +85,8 @@ python Brain_det/img_det.py
 - `Predicted Class : glioma`
 - `Confidence      : 0.9852`
 - Visualization shows bounding box around tumor.
+
+![Project Chart](images/chart.png)
 
 ---
 
