@@ -52,7 +52,7 @@ Class label mapping in code: `glioma -> 0`, `meningioma -> 1`, `notumor -> 2`, `
 
 ## confustion matrics:
 
-![Project Chart](images/confustion_matrics.png)
+![Project Chart](Brain_cls/confustion_matrics.png)
 
 ### Detection (from `Brain_det/results.csv`, 5 epochs)
 - Final epoch:
@@ -64,7 +64,7 @@ Class label mapping in code: `glioma -> 0`, `meningioma -> 1`, `notumor -> 2`, `
 
 ## Learning Accuracy Curve
 
-![Project Chart](images/accuracy_learning_yolo.png)
+![Project Chart](Brain_cls/accuracy_learning_yolo.png)
 
 ---
 
@@ -86,7 +86,7 @@ python Brain_det/img_det.py
 - `Confidence      : 0.9852`
 - Visualization shows bounding box around tumor.
 
-![Project Chart](images/chart.png)
+![Project Chart](Brain_cls/chart.png)
 
 ---
 
