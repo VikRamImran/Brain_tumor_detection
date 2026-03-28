@@ -86,7 +86,7 @@ python Brain_det/img_det.py
 - `Confidence      : 0.9852`
 - Visualization shows bounding box around tumor.
 
-![Project Chart](Brain_cls/chart.png)
+![Project Chart](Brain_cls/output.png)
 
 ---
 
